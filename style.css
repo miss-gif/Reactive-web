@@ -482,6 +482,35 @@ only screen and (min-resolution: 3dppx) {
   }
 }
 
+/* 이미지 슬라이더 */
+.slider figure {
+  position: relative;
+}
+.slider figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 18px;
+}
+
+.slider figcaption em {
+  display: block;
+  font-weight: 900;
+  font-size: 28px;
+  text-transform: uppercase;  
+  }
+.slider figcaption span {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 
 /* 미디어쿼리 */
 /* 화면 너비 0~ 1220px */
