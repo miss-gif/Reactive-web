@@ -381,7 +381,7 @@ body {
   background: #449ce2;
   position: absolute;
   left: 0;
-  top: 6px;
+  top: 8px;
 }
 
 .notice1 .more {
@@ -412,7 +412,7 @@ body {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
   padding-left: 8px;
-  padding-bottom: 5px;
+  /* padding-bottom: 5px; */
   max-height: 40px;
 }
 
@@ -424,7 +424,7 @@ body {
   background: #449ce2;
   position: absolute;
   left: 0;
-  top: 6px;
+  top: 8px;
 }
 
 .notice2 .more {
