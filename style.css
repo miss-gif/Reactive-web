@@ -1,3 +1,7 @@
+img {
+  display: block;
+}
+
 .hidden {
   display: none;
 }
@@ -498,11 +502,11 @@ only screen and (min-resolution: 3dppx) {
 }
 
 /* 이미지 슬라이더 */
-.slider figure {
+.swiper figure {
   position: relative;
 }
 
-.slider figcaption {
+.swiper figcaption {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -514,14 +518,14 @@ only screen and (min-resolution: 3dppx) {
   font-size: 18px;
 }
 
-.slider figcaption em {
+.swiper figcaption em {
   display: block;
   font-weight: 900;
   font-size: 28px;
   text-transform: uppercase;
 }
 
-.slider figcaption span {
+.swiper figcaption span {
   display: block;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1005,15 +1009,15 @@ only screen and (min-resolution: 3dppx) {
     display: none;
   }
 
-  .slider figcaption {
+  .swiper figcaption {
     padding: 10px;
   }
 
-  .slider figcaption em {
+  .swiper figcaption em {
     font-size: 18px;
   }
 
-  .slider figcaption span {
+  .swiper figcaption span {
     font-size: 14px;
   }
 

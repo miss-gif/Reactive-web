@@ -21,6 +21,11 @@
   <link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet" />
 
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+  <!-- Swiper JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
   <!-- JS -->
   <script defer src="./main.js"></script>
 </head>
@@ -274,49 +279,53 @@
         <section id="cont_center">
           <h3 class="ir_su">반응형 사이트 중앙 콘텐츠</h3>
           <article class="column col4">
-            <h4 class="col_tit">Slick Slider</h4>
+            <h4 class="col_tit">Swiper Slider</h4>
             <p class="col_desc">
-              Slick.js를 이용한 이미지 슬라이드 효과입니다.(예정)
+              Swiper.js를 이용한 이미지 슬라이드 효과입니다.
             </p>
             <!-- 이미지 슬라이드 -->
-            <div class="slider">
-              <div class="">
-                <figure>
-                  <img src="img/slider001.jpg" alt="이미지1" />
-                  <figcaption>
-                    <em>Responsice Site1</em>
-                    <span>슬라이드 플러그인을 이용한 반응형 이미지 슬라이드
-                      입니다.</span>
-                  </figcaption>
-                </figure>
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <figure>
+                    <img src="img/slider001.jpg" alt="이미지1" />
+                    <figcaption>
+                      <em>Responsice Site1</em>
+                      <span>슬라이드 플러그인을 이용한 반응형 이미지 슬라이드
+                        입니다.</span>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="swiper-slide">
+                  <figure>
+                    <img src="img/slider001.jpg" alt="이미지2" />
+                    <figcaption>
+                      <em>Responsice Site2</em>
+                      <span>슬라이드 플러그인을 이용한 반응형 이미지 슬라이드
+                        입니다.</span>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="swiper-slide">
+                  <figure>
+                    <img src="img/slider001.jpg" alt="이미지3" />
+                    <figcaption>
+                      <em>Responsice Site3</em>
+                      <span>슬라이드 플러그인을 이용한 반응형 이미지 슬라이드
+                        입니다.</span>
+                    </figcaption>
+                  </figure>
+                </div>
               </div>
-              <div class="">
-                <figure>
-                  <img src="img/slider001.jpg" alt="이미지2" />
-                  <figcaption>
-                    <em>Responsice Site2</em>
-                    <span>슬라이드 플러그인을 이용한 반응형 이미지 슬라이드
-                      입니다.</span>
-                  </figcaption>
-                </figure>
-              </div>
-              <div class="">
-                <figure>
-                  <img src="img/slider001.jpg" alt="이미지3" />
-                  <figcaption>
-                    <em>Responsice Site3</em>
-                    <span>슬라이드 플러그인을 이용한 반응형 이미지 슬라이드
-                      입니다.</span>
-                  </figcaption>
-                </figure>
-              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
             </div>
             <!-- //이미지 슬라이드 -->
           </article>
           <!-- //col4 -->
           <article class="column col5">
-            <h4 class="col_tit">Blend Effect</h4>
-            <p class="col_desc">Background-blend-mode와 mix-blend-mode</p>
+            <h4 class="col_tit">Filter Effect</h4>
+            <p class="col_desc">CSS3에서는 Background-blend-mode, mix-blend-mode, filter와 같이 포토샵에 다루는 효과들이 있습니다.</p>
             <!-- lightbox -->
             <div class="lightbox square clearfix">
               <a href="img/light01_s.jpg"><img src="img/light01.jpg" alt="이미지" /><em>blur</em></a>
