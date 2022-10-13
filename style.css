@@ -206,7 +206,6 @@ body {
   width: 50%;
   position: relative;
   padding-left: 8px;
-  padding-bottom: 10px;
   box-sizing: border-box;
 }
 
@@ -229,16 +228,11 @@ body {
   font-size: 18px;
   color: #25a2d0;
   font-weight: 900;
-  margin-bottom: 10px;
+  margin-bottom: 4px;
 }
 
 .nav>div li a {
   position: relative;
-}
-
-.nav>div li a:hover {
-  color: #25aad0;
-  transform: all. 0.2s ease-out;
 }
 
 .nav>div li a::after {
@@ -247,7 +241,7 @@ body {
   width: 0;
   height: 1px;
   background-color: #25aad0;
-  transform: all. 0.2s ease-out;
+  transition: all .2s ease-out;
   position: absolute;
   bottom: 0;
   left: 0;
